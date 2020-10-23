@@ -9,29 +9,37 @@ Type Express is a Yeoman Generator for Express + Typescript projects. Generate a
 
 You will need the Yeoman package in order to use this generator. So let's install it along with our generator:
 
-        npm install -g yo generator-type-express
+```shell
+npm install -g yo generator-type-express
+```
 
 ## Usage
 
 To create a new project, just run the following command:
 
-        yo type-express <project name> --yarn
-        cd <project name>
+```shell
+yo type-express <project name> --yarn
+cd <project name>
+```
 
 There are a couple of scripts to start your server:
 
-        # Run the server without hot reload
-        yarn dev
+```shell
+# Run the server without hot reload
+yarn dev
 
-        # Run the server with hot reload
-        yarn watch
+# Run the server with hot reload
+yarn watch
 
-        # Build and run compiled JS
-        yarn build
-        yarn start
+# Build and run compiled JS
+yarn build
+yarn start
+```
 
 ## Docker Support
 
 The generated project comes with ready to use Dockerfile, so you just have to build your image.
 
-        docker build -t <image name> .
+```shell
+docker build -t <image name> .
+```
