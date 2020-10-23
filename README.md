@@ -1,4 +1,4 @@
-# Type Express
+# Type Express Generator
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ypk46/generator-type-express)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ypk46/generator-type-express)
